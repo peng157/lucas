@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(241, 237, 92);
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: "Bungee Shade";
+    src: url(./BungeeShade-Regular.ttf);
+}
+#title{
+    justify-content: center;
+    font-family: 'bungee shade';
+} 
+
+
+.操作面板{
+    background-color: antiquewhite;
+    width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px black;
+}
+.輸入區域{
+    display:flex;
+    border-radius: 25px;
+    overflow: hidden;
+ 
+}
+.文字欄{
+    flex-grow: 1;
+    border: none;
+    background-color: bisque;
+    padding: 10px 5px;
+    outline: none;
+}
+.button{
+    background-color: green;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.trash_can{
+    background-color: gray;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.list{
+    list-style-type:none;
+    padding: 0;
+}
+.list p{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-top: 6px;
+    font-family:  'sBungee Shade';
+}
+.list label{
+    flex-grow: 1;
+}
+.打勾方塊{
+    margin-right: 15px;
+    cursor: pointer;
+}
